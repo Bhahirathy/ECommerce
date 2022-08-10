@@ -10,6 +10,6 @@ function Popup(props){
                 {props.children}
             </div>
         </div>
-    ) : " ";
+    ) : "";
 }
 export default Popup;

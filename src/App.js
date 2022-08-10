@@ -32,7 +32,9 @@ const App = () => {
 
                     <h5>{values.title}</h5>
                   <main>
+                   
                    <Popup trigger ={buttonPopup} setTrigger={setButtonPopup}>
+                   <img src={values.image} alt="" />
                     <p>{values.description}</p>
                     </Popup> 
                 </main>
